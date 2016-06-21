@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_res"
+        android:orderInCategory="100"
+        android:title="예약하기"
+        android:icon="@drawable/search"/>
+    <item
+        android:id="@+id/menu_color"
+        android:orderInCategory="110"
+        android:title="테마바꾸기"/>
+    <item
+        android:id="@+id/menu_settings3"
+        android:orderInCategory="120"
+        android:title="학점계산기"/>
+</menu>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">공돌이</string>
+
+    <string-array name="building_array">
+        <item>IT대학</item>
+        <item>가천관</item>
+        <item>비전타워</item>
+        <item>바이오나노대학</item>
+        <item>바이오나노연구원</item>
+        <item>예술대학1</item>
+        <item>예술대학2</item>
+        <item>글로벌센터</item>
+    </string-array>
+
+    <string-array name="IT_class">
+        <item>304</item>
+        <item>305</item>
+        <item>412</item>
+        <item>413</item>
+        <item>601</item>
+    </string-array>
+
+
+    <string-array name="noneClass">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="grade">
+        <item>A+</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>F</item>
+
+    </string-array>
+
+</resources>

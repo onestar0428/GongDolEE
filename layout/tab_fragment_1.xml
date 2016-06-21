@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jy.gongdol.mySchedule">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ae5d4d"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/base"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/time"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:id="@+id/forTimeWidth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="#ffffff">
+
+                <GridLayout
+                    android:id="@+id/mon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:id="@+id/t1_mon"
+                        android:text="월"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/tue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:text="화"
+                        android:id="@+id/t1_tue"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/wed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:text="수"
+                        android:id="@+id/t1_wed"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/thu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:text="목"
+                        android:id="@+id/t1_thu"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/fri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:text="금"
+                        android:id="@+id/t1_fri"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+                </GridLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/forTimeWidth"
+                android:background="#ffffff">
+
+                <GridLayout
+                    android:id="@+id/monday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:background="#f4e2e2"
+                    android:orientation="vertical">
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New ToggleButton"
+                        android:id="@+id/toggleButton"
+                        android:layout_row="21"
+                        android:layout_column="2" />
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/tuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:background="#f4e2e2"
+                    android:orientation="vertical"></GridLayout>
+
+                <GridLayout
+                    android:id="@+id/wednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:background="#f4e2e2"
+                    android:orientation="vertical"></GridLayout>
+
+                <GridLayout
+                    android:id="@+id/thursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:background="#f4e2e2"
+                    android:orientation="vertical"></GridLayout>
+
+                <GridLayout
+                    android:id="@+id/friday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#f4e2e2"
+                    android:orientation="vertical"></GridLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

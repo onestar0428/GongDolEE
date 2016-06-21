@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#ffffff"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/close" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/spinners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/top"
+        android:background="#ffffff"
+        android:textSize="9pt">
+
+        <Spinner
+            android:id="@+id/building_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"></Spinner>
+
+        <Spinner
+            android:id="@+id/room_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"></Spinner>
+
+        <Button
+            android:id="@+id/makeOK"
+            android:layout_width="50dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/searchbtn" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinners"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ae5d4d"
+            android:orientation="vertical"></LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/base"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/time"
+            android:background="@android:color/transparent">
+
+            <LinearLayout
+                android:id="@+id/forTimeWidth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="#ffffff">
+
+                <GridLayout
+                    android:id="@+id/mon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:text="월"
+                        android:id="@+id/cmp_mon"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/tue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:text="화"
+                        android:id="@+id/cmp_tue"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/wed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:text="수"
+                        android:id="@+id/cmp_wed"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/thu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:text="목"
+                        android:id="@+id/cmp_thu"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/fri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ae5d4d"
+                        android:text="금"
+                        android:id="@+id/cmp_fri"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="9pt"
+                        android:textStyle="bold" />
+                </GridLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/forTimeWidth"
+                android:background="@android:color/transparent">
+
+                <GridLayout
+                    android:id="@+id/monday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"></GridLayout>
+
+                <GridLayout
+                    android:id="@+id/tuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"></GridLayout>
+
+                <GridLayout
+                    android:id="@+id/wednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"></GridLayout>
+
+                <GridLayout
+                    android:id="@+id/thursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"></GridLayout>
+
+                <GridLayout
+                    android:id="@+id/friday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"></GridLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#10000000</color>
+
+
+
+    <color name="pressed">#054F93</color>
+    <color name="release">#9b9b9b</color>
+    <color name="back">#FF4979E9</color>
+
+
+
+    <color name="defaultCop">#ffffff</color>
+
+    <color name="cop1">#009ee3</color>
+    <color name="cop2">#054f93</color>
+    <color name="cop3">#f8ac21</color>
+    <color name="cop4">#e30513</color>
+    <color name="cop5">#009640</color>
+    <color name="cop6">#ffc7ca</color>
+    <color name="cop7">#c6e5e4</color>
+    <color name="cop8">#ffffa8</color>
+    <color name="cop9">#f0b0ff</color>
+    <color name="cop10">#99cc99</color>
+    <color name="tool">#6e5638</color>
+
+    <color name="black">#494949</color>
+
+
+
+
+    <color name="t1_1">#526173</color>
+    <color name="t1_2">#ccdccc</color>
+    <color name="t1_3">#80ada8</color>
+    <color name="t2_1">#9b9ea1</color>
+    <color name="t2_2">#d4d7dc</color>
+    <color name="t2_3">#325498</color>
+    <color name="t3_1">#f26c5f</color>
+    <color name="t3_2">#dbd8d4</color>
+    <color name="t3_3">#5fbac0</color>
+    <color name="t4_1">#293319</color>
+    <color name="t4_2">#d7a328</color>
+    <color name="t4_3">#8a1e1b</color>
+    <color name="t5_1">#e8d079</color>
+    <color name="t5_2">#bb2c42</color>
+    <color name="t5_3">#d85842</color>
+    <color name="t6_1">#d6d1d1</color>
+    <color name="t6_2">#23baac</color>
+    <color name="t6_3">#f26c6c</color>
+    <color name="t7_1">#a9b0c5</color>
+    <color name="t7_2">#9cd6e0</color>
+    <color name="t7_3">#686feb</color>
+    <color name="t8_1">#50202f</color>
+    <color name="t8_2">#507179</color>
+    <color name="t8_3">#c32841</color>
+    <color name="t9_1">#f1d0a4</color>
+    <color name="t9_2">#16151f</color>
+    <color name="t9_3">#524645</color>
+    <color name="t10_1">#52332e</color>
+    <color name="t10_2">#e8dba7</color>
+    <color name="t10_3">#f26c5f</color>
+
+
+
+
+
+
+</resources>

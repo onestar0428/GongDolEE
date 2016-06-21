@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jy.gongdol.MainActivity">
+
+    <Button
+        android:id="@+id/stack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="2dp"
+        android:text="my"
+        android:textSize="9pt" />
+
+
+        <LinearLayout
+            android:id="@+id/fortable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/stack"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="9pt" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="8"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="13"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="14"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="15"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="16"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="17"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="18"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="19"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <GridLayout
+                android:id="@+id/monday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="월"
+                    android:textColor="#ffffff"
+                    android:textSize="9pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/s1"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:text="test"
+                    android:textSize="9pt" />
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/tuesday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="화"
+                    android:textColor="#ffffff"
+                    android:textSize="9pt"
+                    android:textStyle="bold" />
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/wednesday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fefeff"
+                    android:text="수"
+                    android:textColor="#ffffff"
+                    android:textSize="9pt"
+                    android:textStyle="bold" />
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/Thuseday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="목"
+                    android:textColor="#ffffff"
+                    android:textSize="9pt"
+                    android:textStyle="bold" />
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/friday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:text="금"
+                    android:textColor="#ffffff"
+                    android:textSize="9pt"
+                    android:textStyle="bold" />
+            </GridLayout>
+
+        </LinearLayout>
+
+
+</RelativeLayout>

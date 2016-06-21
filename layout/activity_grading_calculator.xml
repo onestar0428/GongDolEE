@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <TableLayout
+            android:id="@+id/page01ForGrade"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+
+            <View
+                android:layout_height="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#AAAAAA"/>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="총평점"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:id="@+id/totalGrade"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" /  4.5"
+                    android:textSize="15dp"
+                    android:textColor="#000000"/>
+
+            </TableRow>
+            <View
+                android:layout_height="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#AAAAAA"/>
+
+
+
+
+
+            <View
+                android:layout_height="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#AAAAAA"/>
+
+
+
+
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="과목명"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="학점"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="성적"
+                    android:textColor="#000000"/>
+
+            </TableRow>
+
+
+            <View
+                android:layout_height="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#AAAAAA"/>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject1"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score1"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade1" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject2"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score2"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade2" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject3"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score3"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade3" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject4"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score4"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade4" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject5"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score5"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade5"
+                    android:layout_toRightOf="@+id/phone" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject6"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score6"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade6" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject7"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score7"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade7"
+                    android:layout_toRightOf="@+id/phone" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject8"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score8"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade8"
+                    android:layout_toRightOf="@+id/phone" />
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject9"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score9"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade9"
+                    android:layout_toRightOf="@+id/phone" />
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject10"
+                    android:layout_marginLeft="10dp"
+                    android:text="과목명"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/score10"
+                    />
+                <Spinner
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/grade10"
+                    android:layout_toRightOf="@+id/phone" />
+            </TableRow>
+            <View
+                android:layout_height="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#AAAAAA"/>
+            <TableRow>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#093483"
+                    android:id="@+id/calBtn"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:layout_span="3"
+                    android:text="계산하기"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+</ScrollView>
